@@ -1,14 +1,4 @@
-<p>
-I created an IP resolved gist from the original Sony PSN block list in numerical order 
-with the unresolved/dead hosts at the bottom. This is already an exhaustive list and 
-blocking one domain also blocks any others on the same subnet so I'm not sure it needs 
-to be expanded much more. I haven't had any issues with my PS4 connecting or downloading 
-updates with this list. Props to the folks who originally compiled this address list. 
-Feel free to merge or pull or anything else for that matter if it will help anyone. Cheers.
-</p>
 <code>
-###########################ORIGINAL BLOCKLIST SOURCE#######################################
-          https://github.com/phoanglong/ps4-dns-block/blob/main/ps4-block
 ###########################################################################################
 Below is an IP resolved printout from the above link to a Sony/PSN block list in numerical 
 order with unresolved/dead/downed hosts at the bottom. With this I'm able to simply IP 
@@ -16,16 +6,13 @@ range ban Sony PSN servers via my router/firewall. The ranges are not large by a
 with many duplicate URL's. Hopefully this will save someone the pain of manually adding 
 URL's to their DNS host provider or whichever method you use to block PSN for your HEN PS4.
 ###########################################################################################
-
-
-###########################################################################################
-                  IP Address Range	23.5.13.176/8 -- 23.212.62.85/8
+                   IP Address Range 23.5.13.176/8 -- 23.212.62.85/8
 ###########################################################################################
 hsa01.ps4.update.playstation.net                                            23.5.13.176
 htw01.ps4.update.playstation.net                                            23.5.13.176
 ps4-eb.ww.np.dl.playstation.net                                             23.42.201.128
 crepo.ww.dl.playstation.net     (Resolves to: e3852.dscd.akamaiedge.net)    23.42.204.249 
-urlconfig.api.playstation.com   (Resolves to: e259803.b.akamaiedge.net)     23.43.51.45                    
+urlconfig.api.playstation.com   (Resolves to: e259803.b.akamaiedge.net)     23.43.51.45 
 event.api.np.km.playstation.net                                             23.45.137.90
 ps4updptl.uk.np.community.playstation.net                                   23.47.186.103
 a01.cdn.update.playstation.org.edgesuite.net                                23.67.33.85
@@ -59,9 +46,10 @@ huk01.ps4.update.playstation.net                                            23.2
 hus01.ps4.update.playstation.net                                            23.203.224.202
 ps4updptl.eu.np.community.playstation.net                                   23.208.9.187
 deu01.ps4.update.playstation.net                                            23.212.62.85
-																			
+
+
 ###########################################################################################
-                  IP Address Range	68.142.107.129/8 -- 69.28.162.0/8       
+                        IP Address Range 68.142.107.129/8 -- 69.28.162.0/8       
 ###########################################################################################
 dkr01.ps4.update.playstation.net                                            68.142.107.129
 dru01.ps4.update.playstation.net                                            68.142.107.129
@@ -70,10 +58,10 @@ dau01.ps4.update.playstation.net                                            69.2
 djp01.ps4.update.playstation.net                                            69.28.162.0
 dsa01.ps4.update.playstation.net                                            69.28.162.0
 dmx01.ps4.update.playstation.net                                            69.28.162.0
-																			
-																			
+
+
 ###########################################################################################
-                IP Address Range	104.68.106.48/8 -- 104.114.76.192/8     
+                     IP Address Range 104.68.106.48/8 -- 104.114.76.192/8     
 ###########################################################################################
 csla.np.community.playstation.net                                           104.68.106.48
 post.net.playstation.net                                                    104.114.76.154
@@ -82,7 +70,7 @@ playstation.sony.akadns.net                                                 104.
 																			
 																			
 ###########################################################################################
-                 IP Address Range	184.28.98.75/8 -- 184.29.22.75/8        
+                     IP Address Range 184.28.98.75/8 -- 184.29.22.75/8        
 ###########################################################################################
 get.net.playstation.net                                                     184.28.98.75
 a192.d.akamai.net                                                           184.28.98.87
@@ -90,16 +78,15 @@ themis.dl.playstation.net                                                   184.
 static-resource.np.community.playstation.net                                184.28.148.227
 e274.d.akamaiedge.net (fswitch.dl.playstation.net)                          184.29.20.18
 asm.np.community.playstation.net                                            184.29.22.75
-																			
-																			
+								
 ###########################################################################################
-                 IP Address Range	208.111.152.8/8 -- 208.111.152.100/8    
+                    IP Address Range 208.111.152.8/8 -- 208.111.152.100/8    
 ###########################################################################################
 tmdb.np.dl.playstation.net                                                  208.111.152.8
-																			
-																			
+
+
 ###########################################################################################
-           Unresolved Hosts, temporarily offline or no longer exist         
+                    Unresolved Hosts, temporarily offline or no longer exist         
 ###########################################################################################
 apicdn-p014.ribob01.net                                                     Unresolved Host
 api-p014.ribob01.net                                                        Unresolved Host
@@ -113,7 +100,7 @@ dhk01.ps4.update.playstation.net                                            Unre
 fhk01.ps4.update.playstation.net                                            Unresolved Host
 hhk01.ps4.update.playstation.net                                            Unresolved Host
 
+
 ###########################################################################################
-       
 ###########################################################################################
 </code>
