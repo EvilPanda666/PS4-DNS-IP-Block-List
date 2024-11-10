@@ -1,11 +1,11 @@
-<p>I created an IP resolved gist from the original Sony PSN block list in numerical order 
-	with the unresolved/dead hosts at the bottom. This is already an exhaustive list and 
-	blocking one domain also blocks any others on the same subnet so I'm not sure it needs 
-	to be expanded much more. I haven't had any issues with my PS4 connecting or downloading 
-	updates with this list. Props to the folks who originally compiled this address list. 
-	Feel free to merge or pull or anything else for that matter if it will help anyone. 
-	Cheers.</p>
-
+<p>
+I created an IP resolved gist from the original Sony PSN block list in numerical order 
+with the unresolved/dead hosts at the bottom. This is already an exhaustive list and 
+blocking one domain also blocks any others on the same subnet so I'm not sure it needs 
+to be expanded much more. I haven't had any issues with my PS4 connecting or downloading 
+updates with this list. Props to the folks who originally compiled this address list. 
+Feel free to merge or pull or anything else for that matter if it will help anyone. Cheers.
+</p>
 <code>
 ###########################ORIGINAL BLOCKLIST SOURCE#######################################
           https://github.com/phoanglong/ps4-dns-block/blob/main/ps4-block
@@ -113,8 +113,7 @@ dhk01.ps4.update.playstation.net                                            Unre
 fhk01.ps4.update.playstation.net                                            Unresolved Host
 hhk01.ps4.update.playstation.net                                            Unresolved Host
 
-
-####################ORIGINAL BLOCKLIST SOURCE###########################
-https://github.com/phoanglong/ps4-dns-block/blob/main/ps4-block
-########################################################################
+###########################################################################################
+       
+###########################################################################################
 </code>
